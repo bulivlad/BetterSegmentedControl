@@ -74,6 +74,7 @@ open class LabelSegment: BetterSegmentedControlSegment {
                               accessibilityIdentifier: String?) -> UILabel {
             let label = UILabel()
             label.text = text
+            label.tag = 101
             label.numberOfLines = numberOfLines
             label.backgroundColor = backgroundColor
             label.font = font
